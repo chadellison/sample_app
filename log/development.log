@@ -1730,3 +1730,13 @@ Processing by UsersController#show as HTML
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 52ms (Views: 45.9ms | ActiveRecord: 0.2ms)
   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+
+
+Started GET "/" for ::1 at 2016-04-28 02:49:54 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (316.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 390ms (Views: 380.5ms | ActiveRecord: 0.0ms)
